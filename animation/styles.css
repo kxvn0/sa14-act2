@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid #2f2f2f;
+    margin: 50px auto;
+}
+
+#block {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(237, 99, 99);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.5s ease-in-out;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #24bbe5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(17, 17, 106, 0.4);
+}
